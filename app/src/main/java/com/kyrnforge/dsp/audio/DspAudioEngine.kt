@@ -19,13 +19,13 @@ class DspAudioEngine(private val context: Context) {
     companion object {
         private const val TAG = "DspAudioEngine"
         const val GLOBAL_SESSION_ID = 0
-        const val MAX_GAIN_MB = 1500 // 100% boost = +15 dB (scaled by preset, capped at +22 dB)
+        const val MAX_GAIN_MB = 2500 // 100% boost = +25 dB (scaled by preset, capped at +30 dB)
         const val EFFECT_PRIORITY = Int.MAX_VALUE // win control of session 0 over OEM effects (Dolby, SoundAlive...)
         const val MIN_LIMITER_RATIO = 10f // brickwall: boosted peaks must not reach 0 dBFS and clip
 
-        // 0% = 0 dB; 100% = MAX_GAIN_MB scaled by preset (Studio +10.5 dB, Party +22 dB)
+        // 0% = 0 dB; 100% = MAX_GAIN_MB scaled by preset (Studio +17.5 dB, Party +30 dB)
         fun boostGainMb(percent: Int, preset: DspPreset): Int =
-            ((percent / 100f) * MAX_GAIN_MB * (preset.targetGainMb / 500f)).roundToInt().coerceIn(0, 2200)
+            ((percent / 100f) * MAX_GAIN_MB * (preset.targetGainMb / 500f)).roundToInt().coerceIn(0, 3000)
     }
 
     private var loudnessEnhancer: LoudnessEnhancer? = null

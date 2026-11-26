@@ -6,7 +6,7 @@ Funciona con cualquier app (Spotify, YouTube, juegos) porque se engancha a la sa
 
 ## Qué hace
 
-- Perilla de volumen: de 0 a +10,5 dB en el preset Studio y hasta +22 dB en Party.
+- Perilla de volumen: de 0 a +17,5 dB en el preset Studio y hasta +30 dB en Party.
 - Limitador anti-distorsión que se puede apagar si prefieres el sonido sin tocar.
 - Refuerzo de graves y efecto espacial, que se ajustan solos según salga el audio por el altavoz, por cable o por Bluetooth.
 - Visualizador de espectro en tiempo real.
