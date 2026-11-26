@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AuraSound DSP</string>
+    <string name="app_tagline">Pure Sound &amp; Dynamic Volume</string>
+    <string name="status_active">DSP Engine Activo</string>
+    <string name="status_bypass">Modo Bypass (Inactivo)</string>
+    <string name="channel_name">AuraSound DSP Engine</string>
+    <string name="channel_description">Servicio de procesamiento dinámico de audio en segundo plano</string>
+    <string name="notification_title">AuraSound DSP Activo</string>
+    <string name="notification_text">Optimizando audio con cero distorsión</string>
+    <string name="action_toggle">Activar/Desactivar</string>
+    <string name="action_preset">Cambiar Preset</string>
+    <string name="hearing_warning_title">Protección de Salud Auditiva</string>
+    <string name="hearing_warning_desc">AuraSound DSP utiliza tecnología de compresión multibanda y limitador de picos para maximizar el volumen limpio. El uso de niveles muy elevados durante periodos prolongados puede causar fatiga auditiva. Escucha con moderación.</string>
+</resources>
